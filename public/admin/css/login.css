@@ -1,0 +1,115 @@
+/* 这里面写了所有后端的样式 */
+
+.body_bg {
+  background-color: #222d32;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.mt_150 {
+  margin-top: 150px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body{
+  padding-left: 180px;
+  transition: all 1s;
+}
+
+body.active {
+  padding-left: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  background-color: #222d32;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  transition: all 1s
+}
+.lt_aside.active{
+  left: -180px;
+}
+
+.lt_aside .brand a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #ffff;
+  line-height: 50px;
+  background-color: #337ab3;
+}
+
+.lt_aside .user img {
+  display: block;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 20px auto 0;
+}
+
+.lt_aside .user p {
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.lt_aside .nav a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.active {
+  background-color: #1d1d1d;
+  border-left: 3px solid #337ab3;
+}
+
+.lt_main {
+  width: 100%;
+  height: 100%;
+}
+.lt_header{
+  width: 100%;
+  height: 50px;
+  background-color: #337ab3;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.lt_header a{
+  display: block;
+  line-height: 50px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* 柱状图 */
+.charts_left,
+.charts_right {
+  width: 45%;
+  height: 400px;
+}
